@@ -31,8 +31,8 @@ def create_sample(numbers, c_nums,  path="mnist_dataset\\mnist_test.csv"):
             if sum(control.values()) == 0:
                 break
     data_train = data_sample
-    save_scv("mnist_dataset\\mnist_my_test.csv", data_test)
-    save_scv("mnist_dataset\\mnist_my_train.csv", data_train)
+    save_scv("mnist_dataset/mnist_my_test.csv", data_test)
+    save_scv("mnist_dataset/mnist_my_train.csv", data_train)
 
 def save_scv(path, data):
     with open(path, 'w', newline='') as csvfile:   # сохранение

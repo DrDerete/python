@@ -22,8 +22,8 @@ def create_sample(numbers, c_train, c_test, path):
         if sum(list(control_test.values()) + list(control_train.values())) == 0:
             break
 
-    safe_csv("mnist_dataset\\mnist_my_con_train.csv", train_sample)
-    safe_csv("mnist_dataset\\mnist_my_con_test.csv", test_sample)
+    safe_csv("mnist_dataset/mnist_my_con_train.csv", train_sample)
+    safe_csv("mnist_dataset/mnist_my_con_test.csv", test_sample)
 
 def safe_csv(path, data):
     with open(path, "w", newline="") as csvfile:    # открытие файла для записи

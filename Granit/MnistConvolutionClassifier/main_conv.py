@@ -1,7 +1,7 @@
 from conv_netwok import CNNetwork
 
-train_path = "mnist_dataset\\mnist_my_con_train.csv"
-test_path = "mnist_dataset\\mnist_my_con_test.csv"
+train_path = "mnist_dataset/mnist_my_con_train.csv"
+test_path = "mnist_dataset/mnist_my_con_test.csv"
 
 if __name__ == '__main__':
     options = {
