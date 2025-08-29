@@ -1,0 +1,49 @@
+// Модель выбора фреймворка для машинного обучения
+digraph {
+	dpi=300 fontsize=12 nodesep=0.5 rankdir=TB ranksep=1 size="8.27,11.69!"
+	A [label="Выбор фреймворка" fontsize=14]
+	S1 [label="Разработчик" fontsize=12]
+	S2 [label="Менеджер проекта" fontsize=12]
+	S3 [label="Исследователь" fontsize=12]
+	B [label="Производительность" fontsize=12]
+	C [label="Удобство использования" fontsize=12]
+	D [label="Сообщество и поддержка" fontsize=12]
+	E [label="Масштабируемость" fontsize=12]
+	F [label="Безопасность" fontsize=12]
+	G [label=TensorFlow fontsize=12]
+	H [label=PyTorch fontsize=12]
+	I [label=Keras fontsize=12]
+	J [label="Scikit-learn" fontsize=12]
+	A -> S1
+	A -> S2
+	A -> S3
+	S1 -> B
+	S1 -> C
+	S1 -> D
+	S2 -> E
+	S2 -> F
+	S2 -> D
+	S3 -> B
+	S3 -> E
+	S3 -> C
+	B -> G
+	B -> H
+	B -> I
+	B -> J
+	C -> G
+	C -> H
+	C -> I
+	C -> J
+	D -> G
+	D -> H
+	D -> I
+	D -> J
+	E -> G
+	E -> H
+	E -> I
+	E -> J
+	F -> G
+	F -> H
+	F -> I
+	F -> J
+}
